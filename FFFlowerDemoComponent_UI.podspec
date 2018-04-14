@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFFlowerDemoComponent_UI'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of FFFlowerDemoComponent_UI.'
+  s.version          = '1'
+  s.summary          = 'Flower的基础UI组件模块'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: Flower的基础UI组件模块，可能依赖于config、tool组件等。可以供业务组件提供支撑。
                        DESC
 
   s.homepage         = 'https://github.com/jiaojiaozhe/FFFlowerDemoComponent_UI'
@@ -39,4 +39,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'MBProgressHUD', '~> 1.1.0'
+    s.dependency 'FFFlowerDemoComponent_Config'
+    s.dependency 'FFFlowerDemoComponent_Tools'
 end

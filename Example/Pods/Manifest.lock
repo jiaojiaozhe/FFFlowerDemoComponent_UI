@@ -1,0 +1,31 @@
+PODS:
+  - FFFlowerDemoComponent_Config (1)
+  - FFFlowerDemoComponent_Tools (1):
+    - FMDB (~> 2.7.2)
+    - MBProgressHUD (~> 1.1.0)
+  - FFFlowerDemoComponent_UI (1):
+    - FFFlowerDemoComponent_Config
+    - FFFlowerDemoComponent_Tools
+    - MBProgressHUD (~> 1.1.0)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - MBProgressHUD (1.1.0)
+
+DEPENDENCIES:
+  - FFFlowerDemoComponent_UI (from `../`)
+
+EXTERNAL SOURCES:
+  FFFlowerDemoComponent_UI:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FFFlowerDemoComponent_Config: 382623e99946dc883f8845d42e2b3a243af6ea97
+  FFFlowerDemoComponent_Tools: 57a10ff4dffafae28ed2216fb417ca77d9187365
+  FFFlowerDemoComponent_UI: 3762bc1632bd1c2bcf9ce5fb023c3a8366cf7e71
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+
+PODFILE CHECKSUM: b44e9d4457c3d2048a9b149ef4a722fbb54df5d1
+
+COCOAPODS: 1.4.0

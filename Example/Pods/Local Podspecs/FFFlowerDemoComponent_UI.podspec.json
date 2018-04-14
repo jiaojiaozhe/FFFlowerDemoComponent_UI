@@ -1,0 +1,33 @@
+{
+  "name": "FFFlowerDemoComponent_UI",
+  "version": "1",
+  "summary": "Flower的基础UI组件模块",
+  "description": "TODO: Flower的基础UI组件模块，可能依赖于config、tool组件等。可以供业务组件提供支撑。",
+  "homepage": "https://github.com/jiaojiaozhe/FFFlowerDemoComponent_UI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jiaojiaozhe": "lanbiao@fengnian.cn"
+  },
+  "source": {
+    "git": "https://github.com/jiaojiaozhe/FFFlowerDemoComponent_UI.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FFFlowerDemoComponent_UI/Classes/**/*",
+  "dependencies": {
+    "MBProgressHUD": [
+      "~> 1.1.0"
+    ],
+    "FFFlowerDemoComponent_Config": [
+
+    ],
+    "FFFlowerDemoComponent_Tools": [
+
+    ]
+  }
+}
