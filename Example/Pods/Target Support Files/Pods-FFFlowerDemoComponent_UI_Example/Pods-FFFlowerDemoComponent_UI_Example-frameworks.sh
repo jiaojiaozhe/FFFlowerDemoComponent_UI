@@ -137,14 +137,12 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_Config/FFFlowerDemoComponent_Config.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_Tools/FFFlowerDemoComponent_Tools.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_UI/FFFlowerDemoComponent_UI.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_Config/FFFlowerDemoComponent_Config.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_Tools/FFFlowerDemoComponent_Tools.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_UI/FFFlowerDemoComponent_UI.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

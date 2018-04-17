@@ -60,7 +60,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		676486227FAD3D0F0A632DFE /* FFFlowerDemoComponent_UI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFFlowerDemoComponent_UI.podspec; path = ../FFFlowerDemoComponent_UI.podspec; sourceTree = "<group>"; };
+		676486227FAD3D0F0A632DFE /* FFFlowerDemoComponent_UI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFFlowerDemoComponent_UI.podspec; path = ../FFFlowerDemoComponent_UI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75D608F729C54D35A0636C39 /* Pods-FFFlowerDemoComponent_UI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFFlowerDemoComponent_UI_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFFlowerDemoComponent_UI_Example/Pods-FFFlowerDemoComponent_UI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -310,7 +310,6 @@
 				"${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_Config/FFFlowerDemoComponent_Config.framework",
 				"${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_Tools/FFFlowerDemoComponent_Tools.framework",
 				"${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_UI/FFFlowerDemoComponent_UI.framework",
-				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -318,7 +317,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFFlowerDemoComponent_Config.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFFlowerDemoComponent_Tools.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFFlowerDemoComponent_UI.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
